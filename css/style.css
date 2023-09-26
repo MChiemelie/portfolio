@@ -174,7 +174,7 @@ body {
 #projects {
   display: flex;
   flex-direction: column;
-  margin: auto 5rem;
+  margin: auto;
 }
 
 #projects .btn {
@@ -184,6 +184,7 @@ body {
 
 .project {
   display: grid;
+  padding: 1.5rem;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: minmax(250px, auto);
   grid-gap: 0.9rem;
